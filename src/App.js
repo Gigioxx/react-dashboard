@@ -5,21 +5,22 @@ import { TooltipComponent } from '@syncfusion/ej2-react-popups';
 
 import { Navbar, Footer, Sidebar, ThemeSettings } from './components';
 import {
-  Ecommerce,
-  Orders,
-  Calendar,
-  Employees,
-  Stacked,
-  Pyramid,
-  Customers,
-  Kanban,
   Area,
   Bar,
-  Pie,
-  Financial,
-  ColorPicker,
+  Calendar,
   ColorMapping,
+  ColorPicker,
+  Customers,
+  Ecommerce,
   Editor,
+  Employees,
+  Financial,
+  Kanban,
+  Line,
+  Orders,
+  Pie,
+  Pyramid,
+  Stacked,
 } from './pages';
 
 import './App.css';
