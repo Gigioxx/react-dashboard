@@ -97,11 +97,22 @@ const Ecommerce = () => {
                   id='line-sparkline'
                   type='Line'
                   height='80px'
-                  weight='250px'
+                  width='250px'
                   data={SparklineAreaData}
                   color='purple'
                 />
               </div>
+              <div className='mt-10'>
+                <Button
+                  color='white'
+                  bgColor='purple'
+                  text='Download Report'
+                  borderRadius='10px'
+                />
+              </div>
+            </div>
+            <div>
+              <Stacked width='320px' height='360px' />
             </div>
           </div>
         </div>
